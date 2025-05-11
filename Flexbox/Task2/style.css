@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+}
+
+.container {
+
+    height: 75%;
+    width: 70%;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: 3px solid rgb(137, 221, 243);
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+     
+    .container {
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+
+    }
+}
