@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid green;
+    width: 35%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: start;
+    align-items: center;
+}
+
+.container img {
+    width: 100%;
+    height: 40%;
+}
+
+.container .title {
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.score {
+    display: flex;
+    justify-content: start;
+    font-size: 1.5rem;
+    gap: 10px
+}
+
+.finalScore {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 10px;
+}
